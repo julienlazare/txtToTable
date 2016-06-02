@@ -1,0 +1,6 @@
+•	delete_file: Acessa pasta onde tem os csv e/ou txt e exclui o arquivo escolhido.
+•	folder_files: Arquivo no qual você pode configura (uma constante) o caminho da pasta onde vai ficar os arquivos cvs e/ou txt .
+•	index: Arquivo principal e menu (este arquivo tem include em todas as páginas) ele tem um include do arquivo folder_files.
+•	list_files: Lista todos os arquivos da pasta e dá opção de abrir ou deletar os arquivos.
+•	Read_file: Este arquivo exibe uma tela onde você coloca o nome, extensão, delimitador (caractere de separação dos dados, o padrão é a vírgula) e a cerca (opcional caso o arquivo tenha, o padrão são as aspas duplas) do arquivo csv e/ou txt. Depois ele montada uma tabela onde os dados serão exibidos.
+•	upload_files: Tela onde você pode fazer um upload de um arquivo csv ou txt para a pasta configurada. Limite de tamanho do arquivo 10 MB (este tamanho pode ser aumentado posteriormente).
